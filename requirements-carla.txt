@@ -1,0 +1,8 @@
+# Cliente CARLA (carregar, runner, controle manual) - dentro da venv_carla (Python 3.12)
+# Criar:    python -m venv venv_carla
+# Ativar:   .\venv_carla\Scripts\Activate.ps1
+# Instalar: python -m pip install --upgrade "setuptools<81"
+#           python -m pip install -r requirements-carla.txt
+setuptools<81   # pygame 2.6.1 ainda importa pkg_resources
+carla==0.9.16
+pygame==2.6.1

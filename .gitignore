@@ -1,0 +1,35 @@
+# Ambientes virtuais (recriar com requirements)
+venv_carla/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Intermediarios do netconvert (regenerados pelo converter_3d.py)
+saida/intermediarios/
+
+# Logs
+*.log
+
+# Arquivos locais do QGIS
+*.qgz~
+*.qgs~
+*.qgd
+*.shp.xml
+*.aux.xml
+*.cpg.bak
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+.claude/
+
+# Midia grande (use Git LFS ou link no README se quiser versionar)
+midia/*.mp4

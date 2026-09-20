@@ -1,0 +1,4 @@
+# Conversor (scripts/converter_3d.py) - Python do sistema, fora da venv_carla
+# Instalar: pip install -r requirements-conversor.txt
+pyproj==3.8.0
+eclipse-sumo==1.27.1   # traz o netconvert
