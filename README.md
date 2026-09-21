@@ -2,6 +2,10 @@
 
 Pipeline para transformar vias desenhadas no QGIS (e pontos de altitude marcados à mão) em um mapa OpenDRIVE (`.xodr`) carregado no simulador CARLA 0.9.16, com teste automático e controle manual pelo teclado.
 
+## Demonstração
+
+Vídeo do mapa carregado no CARLA com o `runner.py` em execução: [assistir no YouTube](https://www.youtube.com/watch?v=DRCjzXbaeBo).
+
 ## Estrutura de pastas
 
 ```
